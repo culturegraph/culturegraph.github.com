@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<repositories>
+		<repository>
+			<id>sonatype-repository</id>
+			<url>http://repository.sonatype.org/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>sonatype-repository</id>
+			<url>http://repository.sonatype.org/content/groups/public/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+	<!-- release with: mvn clean deploy -DperformRelease=true -->
+	<distributionManagement>
+      <snapshotRepository>
+        <id>culturegraph-snapshots</id>
+        <url>file:///${basedir}/../culturegraph.github.com/snapshots/</url>
+      </snapshotRepository>
+      <repository>
+        <id>culturegraph-releases</id>
+        <url>file:///${basedir}/../culturegraph.github.com/releases/</url>
+      </repository>
+    </distributionManagement>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.culturegraph</groupId>
+	<artifactId>build</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<modules>
+        	<module>../culturegraph-documentation</module>
+        	<module>../culturegraph-metastream</module>
+        	<module>../culturegraph-metamorph</module>
+        	<module>../culturegraph-metaflow</module>
+        	<module>../culturegraph-search</module>
+        	<module>../culturegraph-semanticweb</module>
+        	<module>../culturegraph-mediawiki</module>
+			<module>../culturegraph-cluster</module>
+	</modules>
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+</project>
