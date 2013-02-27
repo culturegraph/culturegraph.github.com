@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>org.culturegraph</groupId>
-  <artifactId>metastream</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <artifactId>metamorph</artifactId>
+  <version>1.6-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20130227.140506</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20130227.140643</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20130227140506</lastUpdated>
+    <lastUpdated>20130227140643</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.2-20130227.140506-2</value>
-        <updated>20130227140506</updated>
+        <value>1.6-20130227.140643-1</value>
+        <updated>20130227140643</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.2-20130227.140506-2</value>
-        <updated>20130227140506</updated>
+        <value>1.6-20130227.140643-1</value>
+        <updated>20130227140643</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.2-20130227.140506-2</value>
-        <updated>20130227140506</updated>
+        <value>1.6-20130227.140643-1</value>
+        <updated>20130227140643</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.2-20130227.140506-2</value>
-        <updated>20130227140506</updated>
+        <value>1.6-20130227.140643-1</value>
+        <updated>20130227140643</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
