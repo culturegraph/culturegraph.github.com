@@ -1,0 +1,330 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #44443E;
+}
+
+h1,h2,h3 {
+	margin: 0;
+	font-family: "Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	padding-top: 2em;
+	padding-bottom: 1em;
+	font-family: times new roman, serif;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #576072;
+}
+
+h3 {
+	font-size: 16px;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	font-weight: bold;
+	color: #576072;
+}
+
+strong {
+	color: #0C95C9;
+}
+
+a {
+	color: #0C95C9;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+ul {
+	padding-left: 2em;
+}
+
+#header {
+	width: 100%;
+	margin: 0;
+	height: 121px;
+	background-color: #0C95C9;
+}
+
+#headerLogo {
+	width: 100%;
+	margin: 0;
+}
+
+#headerMenu {
+	margin-bottom: 2px;
+	height: 22px;
+	background-color: #464B5A;
+	padding-left: 4em;
+	padding-top: 5px; color : white;
+	font-weight: bold;
+	vertical-align: middle;
+	color: white;
+}
+
+/* Search */
+#search {
+	float: left;
+	width: 400px;
+	height: 45px;
+}
+
+#search form {
+	float: right;
+	margin: 0;
+	padding: 12px 30px 0 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+#search input {
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	border: none;
+}
+
+#search-text {
+	width: 135px;
+	height: 18px;
+	padding: 3px 0 0 5px;
+	border: 1px solid #333333;
+	background: #ECF9E4;
+	color: #000000;
+}
+
+#search-submit {
+	border: none;
+	height: 21px;
+	margin-left: 10px;
+	padding: 0px 5px;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/* Page */
+#page {
+	margin: 0 auto;
+}
+
+#page table {
+	border: 0;
+	border-color: #0C95C9;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+#page th { 
+	padding: 0px;
+	font-weight: bold;
+	padding: 6px;
+}
+
+#page td { 
+	padding: 0px;
+	margin-top: 10px;
+}
+
+#spacer {
+	float: left;
+	width: 152px;
+	padding: 10px;
+	background-color: #F0F0F0;
+}
+
+/* Content */
+#content {
+	float: left;
+	/* 	padding-top: 1em; */
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 80%;
+}
+
+/* Footer */
+#footer {
+	width: 920px;
+	height: 49px;
+	margin: 0 auto;
+}
+
+#footer-bgcontent {
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	/* 	background: #394144; */
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	text-transform: uppercase;
+	font-size: 10px;
+	/* 	color: #FFFFFF; */
+}
+
+#footer a { /* 	color: #E5FFC4; */
+	
+}
+
+/* Success, info, notice and error/alert boxes
+-------------------------------------------------------------- */
+.error,.alert,.notice,.success,.info {
+	padding: 0.2em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	border: 2px solid #ddd;
+}
+
+.error,.alert {
+	background: #fbe3e4;
+	color: #8a1f11;
+	border-color: #fbc2c4;
+}
+
+.notice {
+	background: #fff6bf;
+	color: #514721;
+	border-color: #ffd324;
+}
+
+.success {
+	background: #e6efD2;
+	color: #264409;
+	border-color: #c6d880;
+}
+
+.info {
+	background: #d5edf8;
+	color: #205791;
+	border-color: #92cae4;
+}
+
+.error a,.alert a {
+	color: #8a1f11;
+}
+
+.notice a {
+	color: #514721;
+}
+
+.success a {
+	color: #264409;
+}
+
+.info a {
+	color: #205791;
+}
+
+.key {
+	font-weight: bold;
+	padding: 2px;
+	margin: 1px;
+	background: #eee
+}
+
+.txt {
+	padding: 2px;
+	margin: 1px;
+}
+
+.txt_em {
+	padding: 2px;
+	margin: 1px;
+	font-weight: bold;
+}
+
+.txt_gray {
+	padding: 2px;
+	margin: 1px;
+	color: gray;
+}
+
+.bar_back {
+	border-bottom: 1px solid #dddddd;
+	margin: 0px;
+}
+
+.bar {
+	border: 1px solid #44443E;
+	background-color: #dddddd;
+	/* 	#0C95C9; */
+	padding: 0px;
+	margin: 1px;
+	height: auto;
+}
+
+.bar_hollow {
+	border: 1px solid #0C95C9;
+	padding: 0px;
+	margin: 0px;
+}
+
+.value {
+	border: 1px solid #dddddd;
+	padding: 1px;
+	margin: 0px;
+}
+
+.match {
+	border: 1px solid #264409;
+	padding: 1px;
+	margin: 0px;
+	background: #e6efD2;
+	color: #264409;
+}
+
+.nomatch {
+	border: 1px solid #8a1f11;
+	padding: 1px;
+	margin: 0px;
+	background: #ffefef;
+	color: #8a1f11;
+}
+
+.pager {
+	font-weight: bold;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+.result {
+	margin-bottom: .7em;
+}
+
+div.input_div {
+	margin-bottom: 6px;
+	border: none;
+}
+
+input.button {
+	border: none;
+	padding: 2px;
+	font-size: 16px;
+}
+
+input.input {
+	border: 1px solid #0C95C9;
+	padding: 2px;
+	font-size: 16px;
+}

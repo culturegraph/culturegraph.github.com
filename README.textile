@@ -1,1 +1,1 @@
-This repo contains the sources for the "Culturegraph GitHub page":http://culturegraph.github.com
+This repository contains the sources for the "Culturegraph Software Projects" web site :http://culturegraph.github.com
